@@ -1,4 +1,5 @@
-/* eslint max-len: off, quotes: off, key-spacing: off, comma-spacing: off, array-bracket-spacing: off, indent: off */
+/* eslint max-len: off, quotes: off, key-spacing: off, comma-spacing: off,
+   array-bracket-newline: off, array-bracket-spacing: off, indent: off */
 
 const nock = require('nock');
 

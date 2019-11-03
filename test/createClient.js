@@ -1,3 +1,5 @@
+/* globals describe, it */
+
 const expect = require('chai').expect;
 const {Client, createClient} = require('..');
 

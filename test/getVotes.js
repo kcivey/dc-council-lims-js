@@ -1,4 +1,5 @@
-/* global describe, it */
+/* globals describe, it */
+
 require('./nock');
 const expect = require('chai').expect;
 const {Client} = require('..');
@@ -36,13 +37,14 @@ describe(
                                     'Title',
                                     'Id',
                                     'CouncilPeriod',
-                                    'Modified',
+                                    'Modified'
                                 );
                                 done();
                             })
                             .catch(done);
                     }
                 );
+
                 /*
                 it(
                     'No results (null dataset)',
