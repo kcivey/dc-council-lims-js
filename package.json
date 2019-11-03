@@ -1,6 +1,6 @@
 {
   "name": "dc-council-lims",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Node module for DC Legislative Information Management System API",
   "main": "index.js",
   "scripts": {
