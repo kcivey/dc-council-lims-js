@@ -10,7 +10,7 @@ if (process.env.NOCK_OFF !== 'true') {
 }
 
 describe(
-    'findLocation',
+    'getVotes',
     function () {
         this.timeout(5000); // allow for pauses between requests in live testing
         describe(
